@@ -17,7 +17,7 @@ const MainPage: NextPage = () => {
 							Email
 						</label>
 						<input
-							type="email"
+							type="any"
 							id="email"
 							className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-500 focus:border-blue-500"
 							placeholder="Enter your email"
@@ -29,7 +29,7 @@ const MainPage: NextPage = () => {
 							Password
 						</label>
 						<input
-							type="password"
+							type="any"
 							id="password"
 							className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-500 focus:border-blue-500"
 							placeholder="Enter your password"
@@ -38,7 +38,7 @@ const MainPage: NextPage = () => {
 					</div>
 					<div>
 						<button
-							type="submit"
+							type="any"
 							className="w-full py-2 px-4 bg-blue-600 text-white font-semibold rounded-md shadow hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-500"
 						>
 							Login
